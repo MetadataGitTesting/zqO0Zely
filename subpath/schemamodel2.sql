@@ -1,2 +1,2 @@
-SELECT base 
+SELECT right 
 FROM schemamodel2;

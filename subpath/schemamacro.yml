@@ -1,5 +1,5 @@
 macros:
 - name: schemamacro1
-  description: schemamacro1base
+  description: schemamacro1right
 - name: schemamacro2
   description: schemamacro2base

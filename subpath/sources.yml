@@ -1,18 +1,28 @@
 #this is a section for models
 models:
-- name: model
-  columns:
-  - a
-- name: model2
-  columns:
-  - b
 - name: model3
   columns:
   - c
+  - d
+- name: model2
+  columns:
+  - conflictedColumn2
+- name: model
+  columns:
+  - a
 - name: model4
   columns:
-  - d
+  - updatedColumn
 
 macros:
 - name: macro1
   description: desc-macro1-base
+- name: macro3
+  description: desc-macro3-right
+- name: macro4
+  description: desc-macro4-rightConflict
+- name: macro5
+  description: desc-macro5
+
+seeds:
+- name: seed4

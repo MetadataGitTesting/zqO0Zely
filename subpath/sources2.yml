@@ -4,4 +4,4 @@ seeds:
   - seed1column
 - name: seed2
   columns:
-  - seed2column
+  - seed2columnConflictRight
