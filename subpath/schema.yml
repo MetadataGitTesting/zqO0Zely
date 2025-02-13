@@ -1,0 +1,7 @@
+models:
+- name: schemamodel1
+  description: schemamodel1
+  columns:
+  - base
+- name: schemamodel2
+  description: schemamodel2

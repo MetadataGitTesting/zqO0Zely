@@ -1,0 +1,18 @@
+#this is a section for models
+models:
+- name: model
+  columns:
+  - a
+- name: model2
+  columns:
+  - b
+- name: model3
+  columns:
+  - c
+- name: model4
+  columns:
+  - d
+
+macros:
+- name: macro1
+  description: desc-macro1-base

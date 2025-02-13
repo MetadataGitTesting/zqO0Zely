@@ -1,0 +1,5 @@
+macros:
+- name: schemamacro1
+  description: schemamacro1base
+- name: schemamacro2
+  description: schemamacro2base
