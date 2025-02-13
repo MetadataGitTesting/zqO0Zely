@@ -1,4 +1,4 @@
 snapshots:
 - name: snapshot2
   columns:
-  - a
+  - b

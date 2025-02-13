@@ -1,6 +1,6 @@
 models:
 - name: schemamodel1
-  description: schemamodel1
+  description: schemamodel1left
   columns:
   - base
 - name: schemamodel2

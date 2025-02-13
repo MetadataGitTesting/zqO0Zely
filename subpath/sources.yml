@@ -2,10 +2,10 @@
 models:
 - name: model
   columns:
-  - a
+   - a
 - name: model2
   columns:
-  - b
+  - conflictedColumn1
 - name: model3
   columns:
   - c
@@ -16,3 +16,12 @@ models:
 macros:
 - name: macro1
   description: desc-macro1-base
+- name: macro2
+  description: desc-macro2-left
+- name: macro4
+  description: desc-macro4-leftConflict
+- name: macro5
+  description: desc-macro5
+
+seeds:
+- name: seed3
