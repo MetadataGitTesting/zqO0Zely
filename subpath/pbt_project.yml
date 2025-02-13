@@ -24,6 +24,21 @@ functions:
   businessRules: {}
 subgraphs: {}
 sqlModels:
+  .prophecy/metadata/sqlmodels/model4:
+    name: model4
+    schema: null
+    description: null
+    author: ekpb7ppl.bz5a1wi1@a51yic4h.com
+    files:
+    - model4.sql
+    - sources.yml
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-13 21:25:01'
   .prophecy/metadata/sqlmodels/model:
     name: model
     schema: null
@@ -69,35 +84,6 @@ sqlModels:
       sources: []
       snapshots: []
     createdAt: '2025-02-13 21:25:01'
-  .prophecy/metadata/sqlmodels/model4:
-    name: model4
-    schema: null
-    description: null
-    author: ekpb7ppl.bz5a1wi1@a51yic4h.com
-    files:
-    - model4.sql
-    - sources.yml
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-13 21:25:01'
-  .prophecy/metadata/sqlmodels/modelJson:
-    name: modelJson
-    schema: null
-    description: null
-    author: ekpb7ppl.bz5a1wi1@a51yic4h.com
-    files:
-    - .prophecy/modelJson.json
-    sqlDependencies:
-      models: []
-      datasets: []
-      seeds: []
-      sources: []
-      snapshots: []
-    createdAt: '2025-02-13 21:25:04'
   .prophecy/metadata/sqlmodels/model2:
     name: model2
     schema: null
@@ -178,15 +164,14 @@ sqlTests:
     testType: SingularDataTest
     createdAt: '2025-02-13 21:25:01'
 sqlMacros:
-  .prophecy/metadata/sqlmacros/macro5:
-    name: macro5
-    macroType: macro5
+  .prophecy/metadata/sqlmacros/model:
+    name: model
+    macroType: model
     description: null
     author: ekpb7ppl.bz5a1wi1@a51yic4h.com
     files:
-    - macro2.sql
-    - sources.yml
-    createdAt: '2025-02-13 21:25:04'
+    - macro.sql
+    createdAt: '2025-02-13 21:25:01'
   .prophecy/metadata/sqlmacros/macro1:
     name: macro1
     macroType: macro1
@@ -205,15 +190,6 @@ sqlMacros:
     - schemamacro.sql
     - schemamacro.yml
     createdAt: '2025-02-13 21:25:01'
-  .prophecy/metadata/sqlmacros/macro4:
-    name: macro4
-    macroType: macro4
-    description: null
-    author: ekpb7ppl.bz5a1wi1@a51yic4h.com
-    files:
-    - macro2.sql
-    - sources.yml
-    createdAt: '2025-02-13 21:25:04'
   .prophecy/metadata/sqlmacros/schemamacro2:
     name: schemamacro2
     macroType: schemamacro2
@@ -223,32 +199,7 @@ sqlMacros:
     - schemamacro.sql
     - schemamacro.yml
     createdAt: '2025-02-13 21:25:01'
-  .prophecy/metadata/sqlmacros/macro3:
-    name: macro3
-    macroType: macro3
-    description: null
-    author: ekpb7ppl.bz5a1wi1@a51yic4h.com
-    files:
-    - macro2.sql
-    - sources.yml
-    createdAt: '2025-02-13 21:25:04'
-  .prophecy/metadata/sqlmacros/model:
-    name: model
-    macroType: model
-    description: null
-    author: ekpb7ppl.bz5a1wi1@a51yic4h.com
-    files:
-    - macro.sql
-    createdAt: '2025-02-13 21:25:01'
 sqlSeeds:
-  .prophecy/metadata/sqlseeds/seed4:
-    name: seed4
-    schema: null
-    description: null
-    author: ekpb7ppl.bz5a1wi1@a51yic4h.com
-    files:
-    - sources.yml
-    createdAt: '2025-02-13 21:25:04'
   .prophecy/metadata/sqlseeds/seed1:
     name: seed1
     schema: null
