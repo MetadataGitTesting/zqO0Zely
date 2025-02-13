@@ -1,2 +1,2 @@
-SELECT right 
+SELECT left 
 FROM schemamodel2;

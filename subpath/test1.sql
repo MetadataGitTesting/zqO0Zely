@@ -1,1 +1,1 @@
-SELECT * FROM TEST; #right
+SELECT * FROM TEST; #left

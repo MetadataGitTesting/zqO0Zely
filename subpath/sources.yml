@@ -1,12 +1,12 @@
-#this is a section for models
+version: 2
+
 models:
+- name: model2
+  columns:
+  - conflictedColumn1
 - name: model3
   columns:
   - c
-  - d
-- name: model2
-  columns:
-  - conflictedColumn2
 - name: model
   columns:
   - a
@@ -17,12 +17,15 @@ models:
 macros:
 - name: macro1
   description: desc-macro1-base
+- name: macro2
+  description: desc-macro2-left
 - name: macro3
   description: desc-macro3-right
 - name: macro4
-  description: desc-macro4-rightConflict
+  description: desc-macro4-leftConflict
 - name: macro5
   description: desc-macro5
 
 seeds:
+- name: seed3
 - name: seed4

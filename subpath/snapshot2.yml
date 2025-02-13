@@ -1,4 +1,6 @@
+version: 2
+
 snapshots:
 - name: snapshot2
   columns:
-  - c
+  - b

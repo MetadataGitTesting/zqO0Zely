@@ -1,6 +1,8 @@
+version: 2
+
 models:
 - name: schemamodel1
-  description: schemamodel1
+  description: schemamodel1left
   columns:
   - right
 - name: schemamodel2
